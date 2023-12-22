@@ -1,0 +1,34 @@
+# conda env create --file environment.yml
+# mamba env create --file environment.yml
+# micromamba env create --file environment.yml
+name: apds_energy
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - kaggle
+  - black
+  - invoke
+  - jupyter
+  - jupyterlab
+  - keras
+  - lightgbm
+  - matplotlib
+  - missingno
+  - nbdime
+  - numpy
+  - pandas
+  - pandas-flavor
+  - pandas-profiling
+  - pip
+  - plotly
+  - pyjanitor
+  - pylint
+  - pyprojroot
+  - python=3.12
+  - python-dotenv
+  - scikit-learn
+  - seaborn
+  - statsmodels
+  - tensorflow
